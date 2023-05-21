@@ -21,6 +21,8 @@ jobs:
         python-version: 3.7
     - name: Run freeze
       run: pip freeze > requirements.txt
+    - name: Look at directory
+      run: ls
     - name: Look at requirements
       run: cat requirements.txt
     - name: Install dependencies
